@@ -1,4 +1,4 @@
-const navbarItems = [
+export const navbarItems = [
     {
       name: 'Home',
       link: '/',
@@ -21,5 +21,36 @@ const navbarItems = [
     },
   ];
   
-  export default navbarItems;
+export const featuresCards = [
+  {
+    icon: '/user-info-icon.svg',
+    title: 'User information',
+    description: 'Aorem ipsum dolor sit amet consectetur. Turpis tristique nulla posuere et amet arcu dictum ultricies convallis.',
+  },
+  {
+    icon: '/deal-tracking-icon.svg',
+    title: 'Deal tracking',
+    description: 'Borem ipsum dolor sit amet consectetur. Turpis tristique nulla posuere et amet arcu dictum ultricies convallis.',
+  },
+  {
+    icon: '/pipeline-management-icon.svg',
+    title: 'Pipeline management',
+    description: 'Corem ipsum dolor sit amet consectetur. Turpis tristique nulla posuere et amet arcu dictum ultricies convallis.',
+  },
+  {
+    icon: '/reporting-dashboard-icon.svg',
+    title: 'Reporting dashboard',
+    description: 'Dorem ipsum dolor sit amet consectetur. Turpis tristique nulla posuere et amet arcu dictum ultricies convallis.',
+  },
+  {
+    icon: '/meeting-scheduling-icon.svg',
+    title: 'Meeting scheduling',
+    description: 'Eorem ipsum dolor sit amet consectetur. Turpis tristique nulla posuere et amet arcu dictum ultricies convallis.',
+  },
+  {
+    icon: '/email-tracking-icon.svg',
+    title: 'Email tracking',
+    description: 'Forem ipsum dolor sit amet consectetur. Turpis tristique nulla posuere et amet arcu dictum ultricies convallis.',
+  },
+]
   
