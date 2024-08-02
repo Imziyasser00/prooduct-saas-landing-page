@@ -12,7 +12,7 @@ const Options = () => {
       </div>
       <div className="w-3/4 xl:w-4/5 grid grid-cols-2 md:px-0 md:gap-0 xl:grid-cols-4 mx-auto items-center">
         {pretectedElements.map((item) => (
-          <div className="flex items-center gap-0 justify-center">
+          <div className="flex items-center gap-0 justify-center" key={item.label}>
             <div className="w-16 text-center flex justify-center items-center">
               <Image
                 src={item.icon}

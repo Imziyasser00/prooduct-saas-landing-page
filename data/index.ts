@@ -93,3 +93,45 @@ export const testimonials = [
     description: 'Sed ut diam amet accumsan in. Elementum lorem aliquam venenatis amet sit posuere sed sit. Aliquet suspendisse vitae placerat donec.'
   }
 ]
+
+export const news = [
+  {
+    cover: '/news1.png',
+    titlle: 'Product Mail is taking on Gmail by betting on privacy',
+    description: 'Ramet consectetur. Est porttitor mattis pharetra sit id viverra. Vivamus mauris augue pharetra cras turpis faucibus elit urna.',
+    date: 'February 8, 2023',
+  },
+  {
+    cover: '/news2.png',
+    titlle: 'Wants You To Sign Out Of Google Workspace Forever',
+    description: 'Est porttitor mattis pharetra sit id viverra. Vivamus mauris augue pharetra cras turpis faucibus elit urna.',
+    date: 'July 11, 2024',
+  },
+  {
+    cover: '/news3.png',
+    titlle: 'The Best Email Encryption Services for 2023',
+    description: 'Dorttitor mattis pharetra sit id viverra. Vivamus mauris augue pharetra cras turpis faucibus elit urna.',
+    date: 'Mai 22, 2024',
+  },
+]
+
+
+export const socials = [
+  {
+    icon: '/fb-icon.svg',
+    link: 'https://www.yassirimzi.com',
+  },
+  {
+    icon: '/twitter-icon.svg',
+    link: 'https://x.com/imzi_yasser',
+  },
+  {
+    icon: '/linkedIn-icon.svg',
+    link: 'https://www.linkedin.com/in/yassir-imzi/',
+  },
+  {
+    icon: '/instagram-icon.svg',
+    link: 'https://www.instagram.com/yass_sir__/',
+  },
+
+]

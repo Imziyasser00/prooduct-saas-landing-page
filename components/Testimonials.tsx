@@ -25,7 +25,7 @@ const Testimonials = () => {
           urna sapien.
         </p>
       </div>
-      <div className="flex gap-8 py-10 transition-transform duration-500 ease-in-out" style={{ transform: `translateX(-${currentIndex * 100}%)` }}>
+      <div className="flex px-8 flex-col lg:flex-row gap-8 py-10 transition-transform duration-500 ease-in-out" style={{ transform: `translateX(-${currentIndex * 100}%)` }}>
         {testimonials.map((item)=>(
                 <TestimonialCard icon={item.icon} name={item.name} title={item.title} description={item.description} />
         ))}
