@@ -72,3 +72,24 @@ export const pretectedElements = [
     label: 'Documents',
   },
 ]
+
+export const testimonials = [
+  {
+    icon: '/Avatar1.png',
+    name: 'Cameron Williamson',
+    title: 'Web Designer',
+    description: 'Rorem ipsum dolor sit amet consectetur. Ac quam sem mi nibh volutpat enim pellentesque. Proin iaculis nisl et neque sed fermentum sollicitudin lectus.'
+  },
+  {
+    icon: '/Avatar2.png',
+    name: 'Esther Howard',
+    title: 'Web Developer',
+    description: 'At viverra enim enim sed turpis orci cursus. Imperdiet eros mauris sed sodales nisi interdum ac. Eu congue quis egestas donec lectus'
+  },
+  {
+    icon: '/Avatar3.png',
+    name: 'Jenny Wilson',
+    title: 'UI/UX Designer',
+    description: 'Sed ut diam amet accumsan in. Elementum lorem aliquam venenatis amet sit posuere sed sit. Aliquet suspendisse vitae placerat donec.'
+  }
+]
