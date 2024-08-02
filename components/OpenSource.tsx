@@ -6,7 +6,7 @@ import TextGradient from "./TextGradient"
 const OpenSource = () => {
   return (
     <div className="w-full">
-      <Card variants="w-4/5 mx-auto flex flex-col gap-10">
+      <Card variants="w-4/5  p-5 mx-auto flex flex-col gap-10">
         <div className="w-full flex flex-col gap-5 md:flex-row">
             <div className="w-full md:w-1/2 p-5 flex flex-col gap-5">
                 <TextGradient text="Transparent, audited, &open source" />

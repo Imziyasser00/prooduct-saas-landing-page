@@ -30,10 +30,10 @@ const Options = () => {
         ))}
       </div>
       <div className="w-full">
-        <Card variants="text-white w-4/5 mx-auto border my-10">
+        <Card variants="text-white w-4/5  p-5 mx-auto border my-10">
           <div className="flex flex-col gap-6 md:flex-row">
             <div className="w-full md:w-1/2 flex justify-center px-4 flex-col gap-5">
-              <h3 className="font-bold text-2xl">
+              <h3 className="font-bold text-2xl ">
                 End-to-end encrypted inbox and messages
               </h3>
               <p className="text-gray-400">
@@ -59,7 +59,7 @@ const Options = () => {
       </div>
       <div className="w-4/5 mx-auto flex flex-col md:flex-row gap-5 h-full">
         <div className="w-full xl:w-2/5 flex flex-col">
-          <Card variants="flex flex-col justify-center items-center h-full">
+          <Card variants=" p-5 flex flex-col justify-center items-center h-full">
             <Image
               src={"/mobile-applications-image.png"}
               alt="mobile application image"
@@ -80,7 +80,7 @@ const Options = () => {
           </Card>
         </div>
         <div className="w-full xl:w-3/5 flex flex-col">
-          <Card variants="flex flex-col gap-4 h-full">
+          <Card variants=" p-5 flex flex-col gap-4 h-full">
             <h2 className="text-2xl text-white font-bold">
               Upload, share, and preview any file
             </h2>
