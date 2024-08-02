@@ -18,11 +18,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="bg-[#060B27] w-full">
+        <div className="bg-[#060B27] w-full  overflow-clip">
           <Navbar />
-          <main className="max-w-7xl  mx-auto">
-        {children}
-          </main>
+          <main className="max-w-7xl mx-auto">{children}</main>
         </div>
       </body>
     </html>

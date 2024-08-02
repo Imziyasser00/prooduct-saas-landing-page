@@ -54,3 +54,21 @@ export const featuresCards = [
   },
 ]
   
+export const pretectedElements = [
+  {
+    icon: 'mail-icon.svg',
+    label: 'Email,',
+  },
+  {
+    icon: 'events-icon.svg',
+    label: 'Events,',
+  },
+  {
+    icon: 'files-icon.svg',
+    label: 'Files,',
+  },
+  {
+    icon: 'document-icon.svg',
+    label: 'Documents',
+  },
+]

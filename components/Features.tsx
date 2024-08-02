@@ -7,7 +7,7 @@ const Features = () => {
     <div className="w-full px-8 pb-10">
       <div className="w-full flex flex-col md:flex-row justify-center items-center pb-12">
         <div className="w-full md:w-2/3 text-center md:text-left">
-        <div className="w-4/5 leading-loose">
+        <div className="w-full  md:w-5/6 mx-auto leading-loose">
           <TextGradient text="Powerful features to help you manage all your leads" />
         </div>
         </div>

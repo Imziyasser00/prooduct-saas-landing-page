@@ -22,7 +22,7 @@ const Navbar = () => {
           </Link>
         ))}
       </nav>
-      <Button text="Get demo" href="/" border={false} />
+      <Button text="Get demo" href="/" border={false} navbar={true} />
       <div className="inline-block lg:hidden z-50 w-10" onClick={handleclick}>
         {!menuOpen ? (
           <Image
