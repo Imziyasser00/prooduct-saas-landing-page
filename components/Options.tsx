@@ -19,6 +19,7 @@ const Options = () => {
                 alt={item.label}
                 className=""
                 width={50}
+                priority
                 height={30}
               />
             </div>
@@ -51,6 +52,7 @@ const Options = () => {
                 alt="encrypted inbox image"
                 width={515}
                 height={50}
+                priority
                 className="w-full md:w-[90%] mx-auto h-auto"
               />
             </div>
@@ -89,9 +91,11 @@ const Options = () => {
               massa netus nulla ultricies purus.
             </p>
             <Image
+            
               src={"/file-preview-image.png"}
               width={580}
               alt="file preview image"
+              priority
               height={393}
               className="pt-5 flex-end"
             />

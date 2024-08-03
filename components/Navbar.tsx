@@ -11,10 +11,10 @@ const Navbar = () => {
     setMenuOpen(!menuOpen);
   }
   return (
-    <div className="w-full border-b border-[#151934] ">
+    <div className="w-full border-b border-[#151934] h-24">
       <div className="max-w-7xl mx-auto text-white w-full py-6 px-8 flex justify-between items-center ">
 
-      <Image src={"/logo.png"} alt="logo" className="z-50" width={160} height={300} />
+      <Image src={"/logo.png"} alt="logo" className="z-50" width={160} height={300} priority />
       <nav className="hidden lg:flex items-center gap-6 ">
         {navbarItems.map((item, idx) => (
           <Link href={item.link} key={`nav-item-${idx}`}>

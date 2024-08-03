@@ -22,6 +22,7 @@ const Hero = () => {
           className=" w-3/4 lg:w-3/5"
           width={808}
           height={513}
+          priority
         />
       </div>
       <div className="w-[600px] rounded-full h-[600px] bg-[#7214ff1c] translate-x-[-50%] absolute top-1/2 translate-y-[-50%] -left-30 blur-[70px]" />

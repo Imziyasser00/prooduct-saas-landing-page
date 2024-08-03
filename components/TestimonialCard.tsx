@@ -35,6 +35,7 @@ const TestimonialCard = ({
             height={52}
             src={"/testimonials-quote-icon.svg"}
             alt={"testimonials-quote-icon"}
+            priority
             className="h-auto"
           />
         </div>
