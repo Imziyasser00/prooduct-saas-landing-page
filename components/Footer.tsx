@@ -4,9 +4,9 @@ import Link from "next/link"
 
 const Footer = () => {
   return (
-    <div className="w-full flex flex-col gap-5 flex-col-reverse md:flex-row justify-between items-center border-t py-6 border-[#282D45]">
+    <div className="max-w-7xl mx-auto flex flex-col gap-5 flex-col-reverse md:flex-row justify-between items-center border-t py-6 border-[#282D45]">
       <div className="text-white">
-      <p>Copyright © Product | Created by<Link href={'https://www.yassirimzi.com'} className="underline px-2">www.yassirimzi.com</Link> </p>
+      <p className="">Copyright © Product | Created by<Link href={'https://www.yassirimzi.com'} className="underline px-1">www.yassirimzi.com</Link> </p>
       </div>
       <div className="flex items-center gap-5">
       {socials.map((item)=>(

@@ -1,23 +1,25 @@
-import Discord from "@/components/Discord";
-import Features from "@/components/Features";
-import Footer from "@/components/Footer";
-import Hero from "@/components/Hero";
-import OpenSource from "@/components/OpenSource";
-import Options from "@/components/Options";
-import ProductNews from "@/components/ProductNews";
-import Testimonials from "@/components/Testimonials";
+import { Suspense, lazy } from 'react';
+
+const Discord = lazy(() => import('@/components/Discord'));
+const Features = lazy(() => import('@/components/Features'));
+const Footer = lazy(() => import('@/components/Footer'));
+const Hero = lazy(() => import('@/components/Hero'));
+const OpenSource = lazy(() => import('@/components/OpenSource'));
+const Options = lazy(() => import('@/components/Options'));
+const ProductNews = lazy(() => import('@/components/ProductNews'));
+const Testimonials = lazy(() => import('@/components/Testimonials'));
 
 export default function Home() {
   return (
-    <>
-    <Hero />
-    <Features />
-    <Options />
-    <OpenSource />
-    <Testimonials />
-    <Discord />
-    <ProductNews />
-    <Footer />
-    </>
+    <Suspense fallback={<div>Loading...</div>}>
+      <Hero />
+      <Features />
+      <Options />
+      <OpenSource />
+      <Testimonials />
+      <Discord />
+      <ProductNews />
+      <Footer />
+    </Suspense>
   );
 }
