@@ -95,7 +95,6 @@ const Options = () => {
               src={"/file-preview-image.png"}
               width={580}
               alt="file preview image"
-              priority
               height={393}
               className="pt-5 flex-end"
             />

@@ -19,7 +19,7 @@ const OpenSource = () => {
             </div>
             <div className="w-full md:w-1/2 flex justify-center
              items-center">
-                <Image src={'/open-source-code-image.png'} alt="open source code image" height={528} width={400} priority />
+                <Image src={'/open-source-code-image.png'} alt="open source code image" height={528} width={400} />
             </div>
         </div>
         <div className="w-full flex flex-col gap-5 md:flex-row">
@@ -29,7 +29,7 @@ const OpenSource = () => {
                     Gonsectetur eque nec nunc facilisis tellus tincidunt. Malesuada maecenas ac bibendum consectetur.
                 </p>
                 <div className="flex justify-center items-center">
-                <Image src={'/product-mail-image.png'} className="pt-5" alt="prooduct-mail-image" priority width={488} height={211}/>
+                <Image src={'/product-mail-image.png'} className="pt-5" alt="prooduct-mail-image" width={488} height={211}/>
                 </div>
             </div>
             <div className="w-full p-6 md:w-1/2 rounded border border-[#282D45] bg-[#060B27]">
@@ -38,7 +38,7 @@ const OpenSource = () => {
                     Honsectetur eque nec nunc facilisis tellus tincidunt. Malesuada maecenas ac bibendum consectetur.
                 </p>
                 <div className="flex justify-center items-center">
-                <Image src={'/product-ui-image.png'} className="pt-5" alt="prooduct-ui-image" priority width={488} height={211}/>
+                <Image src={'/product-ui-image.png'} className="pt-5" alt="prooduct-ui-image"  width={488} height={211}/>
                 </div>
             </div>
         </div>

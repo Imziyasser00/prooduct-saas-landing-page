@@ -14,7 +14,7 @@ const NewsCard = ({ image, title, description, date }: NewsProps) => {
       <div className="flex flex-col justify-between h-full">
         <div className="">
           <div className="flex justify-center items-center">
-          <Image src={image} alt={title} width={342} height={230} priority />
+          <Image src={image} alt={title} width={342} height={230}  />
           </div>
           <h2 className="text-2xl py-5 font-bold text-white">{title}</h2>
           <p className="text-gray-500 flex-grow pb-7">{description}</p>
