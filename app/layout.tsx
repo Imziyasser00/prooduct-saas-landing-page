@@ -18,8 +18,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <div className="bg-[#060B27] w-full min-h-[100vh] overflow-clip">
+      <body className={`${inter.className} bg-[#060B27]`} >
+        <div className=" w-full min-h-[100vh] overflow-clip">
           <Navbar />
           <main className="max-w-7xl mx-auto h-full">{children}</main>
           <Footer />
